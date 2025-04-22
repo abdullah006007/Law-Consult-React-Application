@@ -31,7 +31,8 @@ export const router = createBrowserRouter([
                 Component:MyBooking,
 
                 hydrateFallbackElement:(
-                    <BallTriangle height={80} width={80} color="#4fa94d" visible={true} />
+                    <BallTriangle height={80} width={80} color="#4fa94d" visible={true} 
+                    wrapperClass="flex justify-center items-center mt-24 min-h-[200px]"/>
                   ),
                 
                 loader: ()=> fetch("../lawyer.json")
@@ -40,7 +41,8 @@ export const router = createBrowserRouter([
                 path:"/blogs",
                 Component: Blogs,
                 hydrateFallbackElement:(
-                    <BallTriangle height={80} width={80} color="#4fa94d" visible={true} />
+                    <BallTriangle height={80} width={80} color="#4fa94d" visible={true}
+                    wrapperClass="flex justify-center items-center mt-24 min-h-[200px]" />
                   ),
                 loader: ()=>fetch("../Answer.json")
             },
@@ -54,7 +56,8 @@ export const router = createBrowserRouter([
                 path:"/lawyer-details/:id",
                 Component:LawyerDetails,
                 hydrateFallbackElement:(
-                    <BallTriangle height={80} width={80} color="#4fa94d" visible={true} />
+                    <BallTriangle height={80} width={80} color="#4fa94d" visible={true} 
+                    wrapperClass="flex justify-center items-center mt-24 min-h-[200px]"/>
                   ),
                 loader: ()=> fetch("../lawyer.json")
             }

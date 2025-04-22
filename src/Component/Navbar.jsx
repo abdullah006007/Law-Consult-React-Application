@@ -44,8 +44,8 @@ const Navbar = () => {
 
 
 
-                <div className="navbar-end">
-                    <a className="text-white bg-[#0EA106] py-1 px-3 rounded-4xl">Contact Now</a>
+                <div className="navbar-end ">
+                    <Link to="/contact-us" className="text-white hidden md:block bg-[#0EA106] py-1 px-3 rounded-4xl">Contact Now</Link>
                 </div>
             </div>
 

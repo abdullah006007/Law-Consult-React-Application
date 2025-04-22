@@ -43,15 +43,15 @@ const Count = () => {
 
     return (
         <div className='pb-24'>
-            <div className='text-center'>
+            <div className='text-center max-w-screen'>
                 <h1 className='font-semibold text-2xl py-5'>We Provide Best Law Services</h1>
                 <small className='text-gray-500 pb-5'>
                     Our platform connects you with verified, experienced Lawyers across various specialities — all at your convenience. 
                 </small>
             </div>
 
-            <div className='mx-auto'>
-                <div className='grid grid-cols-2 md:grid-cols-4 py-8 w-11/12 mx-auto gap-4'>
+            <div className='mx-auto flex justify-center'>
+                <div className='grid grid-cols-1 md:grid-cols-4 py-8 w-11/12 mx-auto gap-4'>
                  
 
 

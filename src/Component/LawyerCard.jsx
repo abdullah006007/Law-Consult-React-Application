@@ -22,16 +22,16 @@ const LawyerCard = ({person}) => {
    
     return (
         <div>
-            <div className="card card-side bg-base-100 shadow-sm">
+            <div className="card card-side bg-base-100 shadow-sm ">
                 <figure>
-                    <img className='w-36 h-36  p-4 rounded-3xl'
+                    <img className='w-36 h-36  p-4 rounded-3xl '
                         src={image}
                         alt="Movie" />
                 </figure>
-                <div className="card-body">
-                    <div className='flex gap-3'>
+                <div className="card-body px-1 md:px-3 ">
+                    <div className='flex gap-1 md:gap-3'>
                     <small className={availableDay ? 'text-[#09982F] px-5 rounded-4xl bg-[#09982F1A]' : 'text-red-500 bg-[#9809091a] px-5 rounded-4xl'}>
-                                {availableDay ? 'Lawyer Available Today' : 'Not Available Today'}
+                                {availableDay ? 'Available Today' : 'Not Available Today'}
                             </small>
                         <small><button className='text-[#176AE5] bg-[#176AE51A] px-3 rounded-4xl '> {experience} </button></small>
                     </div>
@@ -39,7 +39,7 @@ const LawyerCard = ({person}) => {
                     <p> {specialty} </p>
                     <p> ® {licenseNumber
                     } </p>
-                    <div className="card-actions justify-end">
+                    <div className="card-actions">
                         <Link to={`/lawyer-details/${id}`}><button className="text-[#176AE5] border px-12 rounded-4xl cursor-pointer hover:bg-[#176AE5] hover:text-white">View Details</button></Link>
                     </div>
                 </div>
