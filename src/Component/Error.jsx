@@ -1,11 +1,13 @@
 import React from 'react';
 import img from "../assets/error.jpeg"
+import Navbar from './Navbar';
 import { Link } from 'react-router';
 
-const ContactUs = () => {
+const Error = () => {
     return (
         <div>
             <div className='py-10'>
+                <Navbar></Navbar>
                 <img className='mx-auto' src={img} alt="" />
 
                 <div className='text-center'>
@@ -15,10 +17,10 @@ const ContactUs = () => {
                 </div>
 
             </div>
-            
+
             
         </div>
     );
 };
 
-export default ContactUs;
+export default Error;

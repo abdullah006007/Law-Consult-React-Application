@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import LawyerCard from './LawyerCard';
 
 const Body = ({ data }) => {
+
+    const [showAll, setShowAll] = useState(false)
+    const [displayData, setDisplayData] = useState([])
+
+
+
+    useEffect(()=>{
+        if(showAll){
+            setDisplayData(data)
+        }
+        else{
+            setDisplayData(data.slice(0, 6))
+        }
+    },[data, showAll])
+
+
+
     return (
         <div className='py-20'>
             <div className='text-center'>
@@ -12,17 +29,33 @@ const Body = ({ data }) => {
 
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+           
+           <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                 {
-                    data.map(person => <LawyerCard key={person.id} person={person} ></LawyerCard>)
+                    displayData.map(person => <LawyerCard key={person.id} person={person} ></LawyerCard>)
                 }
             </div>
 
 
 
 
+            {/* button */}
 
 
+            <div className='flex justify-center mt-5'>
+            <button onClick={()=>{setShowAll(!showAll)
+            if(showAll) window.scrollTo(0, 650)}
+
+
+            } className='btn px-4 py-1 rounded-4xl text-white bg-[#0EA106] text-center'>
+
+                
+                {showAll?'Show Less':'Show All Lawyer'} 
+                
+                
+                </button>
+            </div>
+          
 
         </div>
     );

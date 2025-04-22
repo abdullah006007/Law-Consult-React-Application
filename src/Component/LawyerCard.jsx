@@ -3,7 +3,6 @@ import { Link } from 'react-router';
 
 const LawyerCard = ({person}) => {
 
-    console.log(person);
     const { id, image, name, specialty, experience, licenseNumber , availableDays
     } = person  ;
 
@@ -12,11 +11,6 @@ const LawyerCard = ({person}) => {
         const today = new Date();
         const dayName = days[today.getDay()];
     
-    
-        // if (availableDays.includes(arrDay)) {
-        //     setAvailableDay(true);
-        // }
-        // console.log(availableDay);
     
         useEffect(() => {
             if (availableDays?.includes(dayName)) {

@@ -8,7 +8,7 @@
     "licenseNumber": "CRIM-908734",
     "details": "Highly successful in defending serious felony cases with a strategic legal approach.",
     "availability": true,
-    "fee": "৳35,000",
+    "fee": "350",
     "availableDays": ["Monday", "Tuesday", "Thursday"]
   },
   {
@@ -20,7 +20,7 @@
     "licenseNumber": "FMLY-456789",
     "details": "Expert in handling divorce, custody, and child welfare matters with empathy.",
     "availability": false,
-    "fee": "৳28,000",
+    "fee": "280",
     "availableDays": ["Wednesday", "Friday"]
   },
   {
@@ -32,7 +32,7 @@
     "licenseNumber": "CORP-102938",
     "details": "Specialist in mergers, acquisitions, and complex business negotiations.",
     "availability": true,
-    "fee": "৳40,000",
+    "fee": "400",
     "availableDays": ["Monday", "Tuesday", "Friday"]
   },
   {
@@ -44,7 +44,7 @@
     "licenseNumber": "IMMG-837465",
     "details": "Skilled in handling visa, asylum, and citizenship issues with efficiency.",
     "availability": true,
-    "fee": "৳25,000",
+    "fee": "200",
     "availableDays": ["Tuesday", "Wednesday", "Thursday"]
   },
   {
@@ -56,7 +56,7 @@
     "licenseNumber": "IPR-564738",
     "details": "Protects creators’ and businesses’ rights in entertainment and intellectual property.",
     "availability": true,
-    "fee": "৳30,000",
+    "fee": "300",
     "availableDays": ["Monday", "Thursday"]
   },
   {
@@ -68,7 +68,7 @@
     "licenseNumber": "REAL-748291",
     "details": "Experienced in residential and commercial property disputes and closings.",
     "availability": true,
-    "fee": "৳27,000",
+    "fee": "200",
     "availableDays": ["Monday", "Wednesday", "Friday"]
   },
   {
@@ -80,7 +80,7 @@
     "licenseNumber": "EMPL-983471",
     "details": "Advocates for employee rights in termination, harassment, and labor disputes.",
     "availability": true,
-    "fee": "৳26,000",
+    "fee": "200",
     "availableDays": ["Tuesday", "Thursday"]
   },
   {
@@ -92,7 +92,7 @@
     "licenseNumber": "ENVR-837261",
     "details": "Provides legal services for environmental compliance and advocacy cases.",
     "availability": true,
-    "fee": "৳22,000",
+    "fee": "200",
     "availableDays": ["Monday", "Thursday", "Saturday"]
   },
   {
@@ -104,7 +104,7 @@
     "licenseNumber": "TAX-829374",
     "details": "Offers tax planning, audit defense, and dispute resolution for clients.",
     "availability": true,
-    "fee": "৳32,000",
+    "fee": "300",
     "availableDays": ["Wednesday", "Thursday", "Friday"]
   },
   {
@@ -116,7 +116,7 @@
     "licenseNumber": "CIVIL-918273",
     "details": "Fights for civil rights and social justice through litigation and advocacy.",
     "availability": false,
-    "fee": "৳34,000",
+    "fee": "300",
     "availableDays": ["Tuesday", "Friday"]
   },
   {
@@ -128,7 +128,7 @@
     "licenseNumber": "ENVR-135790",
     "details": "Works on environmental law cases related to sustainability and protection.",
     "availability": true,
-    "fee": "৳21,000",
+    "fee": "200",
     "availableDays": ["Monday", "Tuesday", "Thursday"]
   },
   {
@@ -140,31 +140,7 @@
     "licenseNumber": "CRIM-654321",
     "details": "Defends complex criminal cases with deep legal insight and courtroom experience.",
     "availability": true,
-    "fee": "৳36,000",
+    "fee": "300",
     "availableDays": ["Wednesday", "Thursday", "Saturday"]
-  },
-  {
-    "id": 15,
-    "image": "https://images.pexels.com/photos/1181694/pexels-photo-1181694.jpeg",
-    "name": "Edward Smith",
-    "specialty": "Tax Law",
-    "experience": "12 years",
-    "licenseNumber": "TAX-879245",
-    "details": "Provides expert tax consultation and representation during audits and filings.",
-    "availability": true,
-    "fee": "৳30,000",
-    "availableDays": ["Monday", "Tuesday", "Friday"]
-  },
-  {
-    "id": 16,
-    "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
-    "name": "Sophia Anderson",
-    "specialty": "Immigration Law",
-    "experience": "10 years",
-    "licenseNumber": "IMMG-246810",
-    "details": "Guides clients through immigration processes including green cards and visas.",
-    "availability": true,
-    "fee": "৳24,000",
-    "availableDays": ["Tuesday", "Thursday", "Friday"]
   }
 ]

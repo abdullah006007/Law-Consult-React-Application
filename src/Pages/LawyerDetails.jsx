@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { Link, useLoaderData, useParams } from 'react-router';
 import { FaInfoCircle } from "react-icons/fa";
+import { addToLocal } from '../Utils';
 
 const LawyerDetails = () => {
 
@@ -9,7 +10,7 @@ const LawyerDetails = () => {
     const data = useLoaderData();
     const { id } = useParams()
     const singlePerson = data.find(p => p.id === parseInt(id))
-    const { image, name, specialty, experience, details, licenseNumber, availableDays, fee
+    const {image, name, specialty, experience, details, licenseNumber, availableDays, fee
 
     } = singlePerson || {}
 
@@ -33,6 +34,10 @@ const LawyerDetails = () => {
     }, [availableDays, dayName]);
 
 
+    const handleAppointment=() =>{
+        addToLocal(singlePerson)
+    }
+
 
 
 
@@ -55,7 +60,7 @@ const LawyerDetails = () => {
                 <div className="flex flex-col lg:flex-row p-5 items-center gap-5">
                     <img
                         src={image}
-                        className="w-72   rounded-lg shadow-2xl"
+                        className="w-64 h-64   rounded-lg shadow-2xl"
                     />
                     <div>
                         <small className='text-[#176AE5] bg-[#176AE51A] px-5 py-0.5 rounded-4xl'> {experience} </small>
@@ -119,9 +124,6 @@ const LawyerDetails = () => {
 
 
 
-
-
-
                 </div>
 
                 <div className="border-t border border-gray-200 my-4"></div>
@@ -139,7 +141,7 @@ const LawyerDetails = () => {
 
                 <div className='py-8'>
                     {
-                        availableDay? <button className="btn btn-block bg-[#0EA106] text-white rounded-4xl">Book Appointment Now</button>: <button className="btn btn-block bg-[#a10606] text-white rounded-4xl"> Not Available Today </button>
+                        availableDay? <Link to="/my-booking"><button onClick={handleAppointment} className="btn btn-block bg-[#0EA106] text-white rounded-4xl">Book Appointment Now</button></Link>: <button className="btn btn-block bg-[#a10606] text-white rounded-4xl"> Not Available Today </button>
                     }
                     
                 {/* <button className="btn btn-block bg-[#0EA106] text-white rounded-4xl">Book Appointment Now</button> */}

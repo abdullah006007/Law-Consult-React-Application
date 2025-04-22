@@ -19,8 +19,8 @@ const Hero = () => {
                         It avoids subjective claims or <br /> exaggeration that might raise red <br /> flags legally
                         </p>
 
-                        <small className='text-gray-500 mb-24'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a <br />
-                         routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</small>
+                        <small className='text-gray-500 mb-24'>Our platform connects you with verified, experienced lawyer across various specialties — all at your convenience. Whether it's a <br />
+                         urgent consultation, book appointments in minutes and receive quality service trust.</small>
                        
                     </div>
                 </div>

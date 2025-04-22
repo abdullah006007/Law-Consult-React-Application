@@ -1,0 +1,28 @@
+[
+    {
+      "id": "q1",
+      "question": "What is useState and how does it work in React?",
+      "answer": "useState is a Hook in React that allows you to add and manage state in functional components. It returns a pair: the current state value and a function to update it. When the update function is called, the component re-renders with the new state. This makes it easy to handle dynamic behavior like toggling values, counting clicks, or storing user input in components without needing to use class-based components."
+    },
+    {
+      "id": "q2",
+      "question": "What is the purpose of useEffect in React?",
+      "answer": "useEffect is a Hook used for handling side effects in functional components. Common side effects include data fetching, manually updating the DOM, setting up subscriptions, or timers. It runs after the component renders and can be configured to run only on specific changes by using a dependency array. If the array is empty, the effect runs only once when the component mounts. This helps manage lifecycle behaviors in a clean and declarative way."
+    },
+    {
+      "id": "q3",
+      "question": "What is a custom hook in React and when should you use one?",
+      "answer": "A custom hook is a JavaScript function that starts with the word 'use' and allows you to extract and reuse stateful logic between components. You should use a custom hook when multiple components share the same logic, such as form handling, fetching data, or subscribing to events. Creating a custom hook helps keep your code DRY (Don’t Repeat Yourself) and improves readability and maintainability."
+    },
+    {
+      "id": "q4",
+      "question": "Difference between controlled and uncontrolled components. Which one is better?",
+      "answer": "Controlled components are those where form data is handled by React through state. The value of the input field is determined by the component’s state, and updates happen via onChange handlers. Uncontrolled components store their own state internally, and you access the input value using refs. Controlled components are generally considered better in most cases because they offer more control, easier debugging, and better integration with React’s state management."
+    },
+    {
+      "id": "q5",
+      "question": "Tell us something about useFormStatus() in React.",
+      "answer": "useFormStatus() is a React Hook primarily used in conjunction with React Server Components and forms. It allows you to access the status of a form submission, such as whether it is currently submitting or has errors. This hook is particularly useful for showing loading indicators or disabling submit buttons while the form is processing. It helps improve user experience by giving real-time feedback during form submissions."
+    }
+  ]
+  
