@@ -7,7 +7,7 @@ const BookingDeatils = ({person, handleCancel}) => {
 
         
     }=person
-  
+
 
    
 

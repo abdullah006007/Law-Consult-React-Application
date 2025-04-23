@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg",
+    "image": "https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Johnathan Blake",
     "specialty": "Criminal Law",
     "experience": "12 years",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg",
+    "image": "https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Amelia Hart",
     "specialty": "Family Law",
     "experience": "9 years",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "image": "https://images.pexels.com/photos/3563625/pexels-photo-3563625.jpeg",
+    "image": "https://images.pexels.com/photos/3563625/pexels-photo-3563625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Michael Chen",
     "specialty": "Corporate Law",
     "experience": "15 years",
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg",
+    "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Fatima Noor",
     "specialty": "Immigration Law",
     "experience": "7 years",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+    "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Liam O’Connor",
     "specialty": "Movie",
     "experience": "10 years+ ",
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Sophia Williams",
     "specialty": "Movie",
     "experience": "8 years+ ",
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "David Patel",
     "specialty": "Movie",
     "experience": "8 years+",
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "image": "https://images.pexels.com/photos/3771129/pexels-photo-3771129.jpeg",
+    "image": "https://images.pexels.com/photos/3771129/pexels-photo-3771129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Emily Rodríguez",
     "specialty": "Environmental Law",
     "experience": "6 years",
@@ -97,7 +97,7 @@
   },
   {
     "id": 9,
-    "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+    "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Noah Kim",
     "specialty": "Tax Law",
     "experience": "13 years",
@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg",
+    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Grace Bennett",
     "specialty": "Civil Rights Law",
     "experience": "14 years",
@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "image": "https://images.pexels.com/photos/3773683/pexels-photo-3773683.jpeg",
+    "image": "https://images.pexels.com/photos/3773683/pexels-photo-3773683.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Daniel Harris",
     "specialty": "Environmental Law",
     "experience": "5 years",
@@ -133,7 +133,7 @@
   },
   {
     "id": 14,
-    "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg",
+    "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "name": "Olivia Taylor",
     "specialty": "Criminal Law",
     "experience": "14 years",

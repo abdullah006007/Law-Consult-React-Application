@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router';
 import { FaInfoCircle } from "react-icons/fa";
 import { addToLocal } from '../Utils';
+import toast from 'react-hot-toast';
 
 const LawyerDetails = () => {
 
@@ -39,6 +40,14 @@ const LawyerDetails = () => {
     }
 
 
+    const successBooking = () =>{
+        toast.success("Appointment Booked Successfully!!")
+    }
+
+    const notAvailableToday = () =>{
+        toast.error("Not Available Today! Please Check Availability")
+    }
+
 
 
     return (
@@ -46,7 +55,7 @@ const LawyerDetails = () => {
 
         <div>
             <div className='text-center bg-gray-200 rounded-xl my-8 '>
-                <div className=' mx-auto w-[1000px] p-16'>
+                <div className=' mx-auto max-w-[1000px] p-16'>
                     <p className='text-3xl font-bold py-3'>Lawyer’s Profile Details</p>
                     <small> {details} </small>
                 </div>
@@ -88,8 +97,6 @@ const LawyerDetails = () => {
 
 
 
-
-
             </div>
 
             {/* second cart */}
@@ -98,8 +105,6 @@ const LawyerDetails = () => {
 
                 <p className='text-center py-1 font-bold'>Book an Appointment</p>
                 <div className="border-t border-dashed border-gray-300 my-4"></div>
-
-
 
 
 
@@ -114,13 +119,7 @@ const LawyerDetails = () => {
                         </p>
 
 
-
-
-
                     </div>
-
-
-
 
 
 
@@ -129,8 +128,8 @@ const LawyerDetails = () => {
                 <div className="border-t border border-gray-200 my-4"></div>
 
                 <p className={availableDay
-                    ? 'text-[#FFA000] bg-[#FFA0001A] text-center py-1 px-5 rounded-4xl flex items-center justify-center gap-2'
-                    : 'text-red-500 text-center py-1 bg-[#FFA0001A] px-5 rounded-4xl flex items-center justify-center gap-2'}>
+                    ? 'text-[#FFA000] bg-[#FFA0001A] text-center py-2 px-5 rounded-4xl flex items-center justify-center gap-2'
+                    : 'text-red-500 text-center py-2 bg-[#FFA0001A] px-5 rounded-4xl flex items-center justify-center gap-2 '}>
 
                     <FaInfoCircle />
                     {availableDay
@@ -141,7 +140,9 @@ const LawyerDetails = () => {
 
                 <div className='py-8'>
                     {
-                        availableDay? <Link to="/my-booking"><button onClick={handleAppointment} className="btn btn-block bg-[#0EA106] text-white rounded-4xl">Book Appointment Now</button></Link>: <button className="btn btn-block bg-[#a10606] text-white rounded-4xl"> Not Available Today </button>
+                        availableDay? <Link to="/my-booking">
+                            <button onClick={() => { handleAppointment(); successBooking(); }} className="btn btn-block bg-[#0EA106] text-white rounded-4xl">Book Appointment Now</button>
+                        </Link>: <button onClick={notAvailableToday} className="btn btn-block bg-[#a10606] text-white rounded-4xl"> Not Available Today </button>
                     }
                     
                 {/* <button className="btn btn-block bg-[#0EA106] text-white rounded-4xl">Book Appointment Now</button> */}

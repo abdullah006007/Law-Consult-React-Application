@@ -62,10 +62,9 @@ const Rechart = ({ displayData }) => {
 
 
   return (
-    <div className="py-5 flex justify-center">
+    <div className="py-5 flex justify-center h-96 sm:h-[500px] ">
       <BarChart
         width={800}
-
         height={450}
         data={transformedData}
         margin={{ top: 40, right: 30, left: 20, bottom: 5 }} 

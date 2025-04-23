@@ -31,7 +31,7 @@ const Body = ({ data }) => {
             </div>
 
            
-           <div className='grid grid-cols-1 md:grid-cols-2 gap-7 py-16 max-w-screen'>
+           <div className='grid grid-cols-1 md:grid-cols-2 gap-7 pt-16 pb-7 max-w-screen'>
                 <Suspense fallback={<p>Loading...</p>}>
                 {
                     displayData.map(person => <LawyerCard key={person.id} person={person} ></LawyerCard>)

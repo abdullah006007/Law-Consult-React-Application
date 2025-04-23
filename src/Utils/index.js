@@ -1,3 +1,5 @@
+import toast from "react-hot-toast"
+
 export const getInfo = () =>{
     const lawyerInfo = localStorage.getItem('lawyerInfo')
     if(lawyerInfo) return JSON.parse(lawyerInfo)
@@ -12,7 +14,7 @@ export const addToLocal = (person)=> {
     console.log(person.id);
     const isExist = lawyerInfo.find(p => p.id === person.id)
     if(isExist){
-        alert("already Added")
+        toast.error("Already Added")
     }
     else{
         lawyerInfo.push(person)
@@ -28,6 +30,7 @@ export const removeLawyer = id =>{
     const lawyerInfo = getInfo();
     const remainingFavorites = lawyerInfo.filter(p=>p.id!== id)
     localStorage.setItem('lawyerInfo', JSON.stringify(remainingFavorites))
+    toast.error("Appointment removed!!")
 
 
 

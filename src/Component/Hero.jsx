@@ -4,7 +4,7 @@ import heroImg from "../assets/banner-img-1.png"
 
 const Hero = () => {
     return (
-        <div>
+        <div className='py-3'>
             <div
                 className="hero max-w-screen md:min-h-[550px]"
                 style={{
