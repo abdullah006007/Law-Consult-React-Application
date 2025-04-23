@@ -29,7 +29,7 @@ const LawyerCard = ({person}) => {
                         alt="Movie" />
                 </figure>
                 <div className="card-body px-1 md:px-3 ">
-                    <div className='flex gap-2 md:gap-3'>
+                    <div className='flex gap-1 md:gap-3'>
                     <small className={availableDay ? 'text-[#09982F] sm:px-5 px-2 rounded-4xl bg-[#09982F1A]' : 'text-red-500 bg-[#9809091a] sm:px-5 px-2 rounded-4xl'}>
                                 {availableDay ? 'Available Today' : 'Not Available Today'}
                             </small>

@@ -108,13 +108,13 @@ const LawyerDetails = () => {
 
 
 
-                <div className='flex justify-between'>
+                <div className='flex justify-between items-center'>
                     <div>
                         <p>Availability</p>
                     </div>
                     <div >
 
-                        <p className={availableDay ? 'text-[#09982F] bg-[#09982F1A] px-5 rounded-4xl ' : 'text-red-500 bg-[#9809091a] px-5 rounded-4xl'}>
+                        <p className={availableDay ? 'text-[#09982F] bg-[#09982F1A] px-3 rounded-4xl ' : 'text-red-500 bg-[#9809091a] px-3 rounded-4xl'}>
                             {availableDay ? 'Lawyer Available Today' : 'Not Available Today'}
                         </p>
 
