@@ -23,8 +23,8 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <div className='flex items-center '>
-                        <Link to="/" className="btn btn-ghost text-xl">Law.BD</Link>
+                    <div className='flex items-center gap-2 '>
+                        <Link to="/" className=" font-bold text-xl">Law.BD</Link>
                         <img src={logo} alt="" />
                     </div>
                 </div>
