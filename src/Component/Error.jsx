@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 const Error = () => {
     return (
         <div>
-            <div className='py-10'>
+            <div className=''>
                 <Navbar></Navbar>
                 <img className='mx-auto' src={img} alt="" />
 
