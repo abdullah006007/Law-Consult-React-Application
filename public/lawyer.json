@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Johnathan Blake",
     "specialty": "Criminal Law",
     "experience": "12 years",
@@ -9,11 +9,11 @@
     "details": "Highly successful in defending serious felony cases with a strategic legal approach.",
     "availability": true,
     "fee": "350",
-    "availableDays": ["Monday", "Tuesday", "Thursday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   {
     "id": 2,
-    "image": "https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Amelia Hart",
     "specialty": "Family Law",
     "experience": "9 years",
@@ -21,11 +21,11 @@
     "details": "Expert in handling divorce, custody, and child welfare matters with empathy.",
     "availability": false,
     "fee": "280",
-    "availableDays": ["Wednesday", "Friday"]
+    "availableDays": ["Wednesday", "Friday", "Saturday", "Sunday"]
   },
   {
     "id": 3,
-    "image": "https://images.pexels.com/photos/3563625/pexels-photo-3563625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/3563625/pexels-photo-3563625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Michael Chen",
     "specialty": "Corporate Law",
     "experience": "15 years",
@@ -33,11 +33,11 @@
     "details": "Specialist in mergers, acquisitions, and complex business negotiations.",
     "availability": true,
     "fee": "400",
-    "availableDays": ["Monday", "Tuesday", "Friday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   {
     "id": 4,
-    "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Fatima Noor",
     "specialty": "Immigration Law",
     "experience": "7 years",
@@ -45,35 +45,35 @@
     "details": "Skilled in handling visa, asylum, and citizenship issues with efficiency.",
     "availability": true,
     "fee": "200",
-    "availableDays": ["Tuesday", "Wednesday", "Thursday"]
+    "availableDays": ["Tuesday", "Wednesday", "Thursday", "Friday"]
   },
   {
     "id": 5,
-    "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Liam O’Connor",
     "specialty": "Movie",
-    "experience": "10 years+ ",
+    "experience": "10 years+",
     "licenseNumber": "IPR-564738",
     "details": "Protects creators’ and businesses’ rights in entertainment and intellectual property.",
     "availability": true,
     "fee": "300",
-    "availableDays": ["Monday", "Thursday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Friday"]
   },
   {
     "id": 6,
-    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Sophia Williams",
     "specialty": "Movie",
-    "experience": "8 years+ ",
+    "experience": "8 years+",
     "licenseNumber": "REAL-748291",
     "details": "Experienced in residential and commercial property disputes and closings.",
     "availability": true,
     "fee": "200",
-    "availableDays": ["Monday", "Wednesday", "Friday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Friday"]
   },
   {
     "id": 7,
-    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "David Patel",
     "specialty": "Movie",
     "experience": "8 years+",
@@ -81,11 +81,11 @@
     "details": "Advocates for employee rights in termination, harassment, and labor disputes.",
     "availability": true,
     "fee": "200",
-    "availableDays": ["Tuesday", "Thursday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   {
     "id": 8,
-    "image": "https://images.pexels.com/photos/3771129/pexels-photo-3771129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/3771129/pexels-photo-3771129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Emily Rodríguez",
     "specialty": "Environmental Law",
     "experience": "6 years",
@@ -93,11 +93,11 @@
     "details": "Provides legal services for environmental compliance and advocacy cases.",
     "availability": true,
     "fee": "200",
-    "availableDays": ["Monday", "Thursday", "Saturday"]
+    "availableDays": ["Monday", "Tuesday", "Thursday", "Saturday"]
   },
   {
     "id": 9,
-    "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Noah Kim",
     "specialty": "Tax Law",
     "experience": "13 years",
@@ -105,11 +105,11 @@
     "details": "Offers tax planning, audit defense, and dispute resolution for clients.",
     "availability": true,
     "fee": "300",
-    "availableDays": ["Wednesday", "Thursday", "Friday"]
+    "availableDays": ["Monday", "Tuesday", "Thursday", "Friday"]
   },
   {
     "id": 10,
-    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Grace Bennett",
     "specialty": "Civil Rights Law",
     "experience": "14 years",
@@ -117,11 +117,11 @@
     "details": "Fights for civil rights and social justice through litigation and advocacy.",
     "availability": false,
     "fee": "300",
-    "availableDays": ["Tuesday", "Friday"]
+    "availableDays": ["Tuesday", "Wednesday", "Thursday", "Saturday"]
   },
   {
     "id": 11,
-    "image": "https://images.pexels.com/photos/3773683/pexels-photo-3773683.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/3773683/pexels-photo-3773683.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Daniel Harris",
     "specialty": "Environmental Law",
     "experience": "5 years",
@@ -129,11 +129,11 @@
     "details": "Works on environmental law cases related to sustainability and protection.",
     "availability": true,
     "fee": "200",
-    "availableDays": ["Monday", "Tuesday", "Thursday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   {
     "id": 14,
-    "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Olivia Taylor",
     "specialty": "Criminal Law",
     "experience": "14 years",
@@ -141,6 +141,6 @@
     "details": "Defends complex criminal cases with deep legal insight and courtroom experience.",
     "availability": true,
     "fee": "300",
-    "availableDays": ["Wednesday", "Thursday", "Saturday"]
+    "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   }
 ]
