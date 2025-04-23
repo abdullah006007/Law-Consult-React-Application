@@ -69,10 +69,10 @@ const LawyerDetails = () => {
                         src={image}
                         className="w-64 h-64   rounded-lg shadow-2xl"
                     />
-                    <div className='max-w-screen p-5'>
-                        <div className='px-5'>
-                            <small className='text-[#176AE5] bg-[#176AE51A] px-5 py-0.5 rounded-4xl'> {experience} </small>
-                            <h1 className="text-2xl font-bold"> {name} </h1>
+                    <div className='max-w-screen '>
+                        <div className='px-'>
+                            <small className='text-[#176AE5] bg-[#176AE51A] px-5 py-1 rounded-4xl'> {experience} </small>
+                            <h1 className="text-2xl font-bold py-2"> {name} </h1>
 
                             <div className=' flex gap-16 items-center'>
                                 <p className='text-gray-500'> {specialty} </p>
@@ -80,8 +80,8 @@ const LawyerDetails = () => {
 
                             </div>
 
-                            <small className='py-1 '><span className='text-gray-500 max-w-screen font-semibold'>Availability:</span> {availableDays.map((day, index) => (
-                                <span key={index} className="ml-1  md:ml-5 text-[#FFA000] bg-[#FFA0001A] px-4 py-0.5 rounded-2xl">{day}</span>
+                            <small className='py-2 '><span className='text-gray-500 max-w-screen font-semibold'>Availability:</span> {availableDays.map((day, index) => (
+                                <span key={index} className="ml-1  md:ml-5 text-[#FFA000] bg-[#FFA0001A] px-2 md:px-4 py-0.5 rounded-2xl">{day}</span>
 
                             ))} </small>
 
