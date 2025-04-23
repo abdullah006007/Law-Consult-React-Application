@@ -23,10 +23,7 @@ const LawyerDetails = () => {
     const dayName = days[today.getDay()];
 
 
-    // if (availableDays.includes(arrDay)) {
-    //     setAvailableDay(true);
-    // }
-    // console.log(availableDay);
+
 
     useEffect(() => {
         if (availableDays?.includes(dayName)) {
@@ -34,6 +31,7 @@ const LawyerDetails = () => {
         }
     }, [availableDays, dayName]);
 
+    
 
     const handleAppointment = () => {
         addToLocal(singlePerson)
@@ -102,6 +100,8 @@ const LawyerDetails = () => {
             </div>
 
             {/* second card */}
+
+
 
             <div className='p-5 border border-gray-200 rounded-2xl '>
 

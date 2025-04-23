@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
 
             <div className="lg:navbar bg-base-100 max-w-7xl mx-auto  ">
-                <div className="md:navbar-start flex justify-between pt-5 px-5">
+                <div className="md:navbar-start flex items-center justify-between pt-5 px-5">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className=" lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
@@ -23,7 +23,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <div className='flex  '>
+                    <div className='flex items-center '>
                         <Link to="/" className="btn btn-ghost text-xl">Law.BD</Link>
                         <img src={logo} alt="" />
                     </div>

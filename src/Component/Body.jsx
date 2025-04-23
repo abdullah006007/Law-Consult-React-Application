@@ -15,7 +15,7 @@ const Body = ({ data }) => {
                 setDisplayData(data.slice(0, 6));
             }
             setIsLoading(false);
-        }, 1000); 
+        }, 500); 
 
         return () => clearTimeout(timeout);
     }, [data, showAll]);
@@ -55,12 +55,12 @@ const Body = ({ data }) => {
 
 
 
-            {/* Toggle Button */}
+
             <div className='flex max-w-screen justify-center mt-5'>
                 <button
                     onClick={() => {
                         setShowAll(!showAll);
-                        if (showAll) window.scrollTo(0, 650);
+                        if (showAll) ;
                     }}
                     className='btn px-4 py-1 rounded-4xl text-white bg-[#0EA106] text-center'
                 >
