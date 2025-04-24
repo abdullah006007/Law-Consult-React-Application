@@ -29,9 +29,9 @@ const Footer = () => {
                 </nav>
 
                 <div className='flex justify-center gap-2.5'>
-                    <Link to="https://www.facebook.com/"><img src={fb} alt="" /></Link>
-                    <Link to="https://www.youtube.com/"><img src={y} alt="" /></Link>
-                    <Link to="https://www.youtube.com/"><img src={insta} alt="" /></Link>
+                    <Link to="https://www.facebook.com/abdullahbinashraf77/"><img src={fb} alt="" /></Link>
+                    <Link to="https://www.youtube.com/@Enraken12"><img src={y} alt="" /></Link>
+                    <Link to="https://www.instagram.com/iam_abudllahh/"><img src={insta} alt="" /></Link>
                 </div>
 
 
