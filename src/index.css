@@ -2,9 +2,3 @@
 @plugin "daisyui";
 
 
-element.style {
-    position: relative;
-    cursor: default;
-    width: 800px;
-    height: 0px;
-}

@@ -5,6 +5,7 @@ import MyBooking from "../Pages/MyBooking";
 import Blogs from "../Pages/Blogs";
 import ContactUs from "../Pages/ContactUs";
 import LawyerDetails from "../Pages/LawyerDetails";
+import Error from "../Component/Error";
 
 
 
