@@ -64,7 +64,7 @@ const Rechart = ({ displayData }) => {
           <XAxis
             dataKey="name"
             label={{
-              value: 'Doctor Name',
+              value: 'Lawyer Name',
               position: 'insideBottom',
               offset: -5,
               fontSize: 12,
