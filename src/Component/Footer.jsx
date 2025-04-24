@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router';
 import img from '../assets/logo-footer.png'
 import fb from '../assets/fb.png'
-import y from '../assets/y.png'
+import G from '../assets/G.png'
 import insta from '../assets/insta.png'
 
 
@@ -27,10 +27,9 @@ const Footer = () => {
                    
 
                 </nav>
-
                 <div className='flex justify-center gap-2.5'>
                     <Link to="https://www.facebook.com/abdullahbinashraf77/"><img src={fb} alt="" /></Link>
-                    <Link to="https://www.youtube.com/@Enraken12"><img src={y} alt="" /></Link>
+                    <Link to="https://github.com/abdullah006007"><img src={G} alt="" /></Link>
                     <Link to="https://www.instagram.com/iam_abudllahh/"><img src={insta} alt="" /></Link>
                 </div>
 
