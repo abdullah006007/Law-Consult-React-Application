@@ -1,12 +1,37 @@
-# [View Demo](https://lawyer-consulting-bd.netlify.app/)
+# Law-Consulting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [https://lawyer-consulting-bd.netlify.app/](https://lawyer-consulting-bd.netlify.app/)
 
-Currently, two official plugins are available:
+## 📌 Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Law-Consulting** is a modern web platform designed to connect users with professional legal consultants in Bangladesh. It offers an intuitive interface for exploring legal services, viewing consultant profiles, and accessing legal resources with ease and speed.
 
-## Expanding the ESLint configuration
+## 🚀 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚖️ Professionally designed landing page tailored for law consulting services
+- 📱 Fully responsive design compatible with all devices
+- 🔍 Interactive UI using animation and scroll effects
+- 📈 Data visualization using charts for legal stats and insights
+- ⏱️ Animated counters for quick service stats
+- 🔔 Real-time notifications using toast alerts
+- 🔁 Client-side routing with seamless navigation
+- 🔄 Smooth loading spinners for enhanced UX
+
+## 🧰 NPM Packages Used
+
+- **react** – JavaScript library for building user interfaces  
+- **react-dom** – Entry point for DOM rendering  
+- **react-router** – For navigation and routing  
+- **react-icons** – Collection of popular icons  
+- **react-countup** – For animated number counters  
+- **react-hot-toast** – Lightweight notifications  
+- **react-toastify** – Stylish toast notifications  
+- **react-intersection-observer** – Detects when elements are in the viewport  
+- **react-loader-spinner** – Pre-built spinners for loading states  
+- **recharts** – Charting library for React  
+- **tailwindcss** – Utility-first CSS framework  
+- **@tailwindcss/vite** – Tailwind integration with Vite
+
+---
+
+Feel free to contribute or fork the project to enhance legal tech solutions further!
